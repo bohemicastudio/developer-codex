@@ -10,3 +10,4 @@
 8. Use environment variables for sensitive data like API keys and do not expose them in your Vue application's codebase.
 9. Always clean up your side effects (like timers or event listeners) in the beforeUnmount lifecycle hook to avoid memory leaks.
 10. Always handle errors and exceptions properly. Use try-catch blocks to catch errors (or catch() block for axios) and handle them gracefully.
+11. In every repository, include a README which tells exactly how to run the project. Eg. copy .env.example to .env
