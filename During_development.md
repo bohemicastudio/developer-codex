@@ -11,3 +11,5 @@
 9. Always clean up your side effects (like timers or event listeners) in the beforeUnmount lifecycle hook to avoid memory leaks.
 10. Always handle errors and exceptions properly. Use try-catch blocks to catch errors (or catch() block for axios) and handle them gracefully.
 11. In every repository, include a README which tells exactly how to run the project. Eg. copy .env.example to .env
+12. If you're building a new feature and this features make another one deprecated, label the old feature deprecated and check for its usage
+13. Delete files which certailnly will no longer be used
