@@ -13,3 +13,4 @@
 11. In every repository, include a README which tells exactly how to run the project. Eg. copy .env.example to .env
 12. If you're building a new feature and this features make another one deprecated, label the old feature deprecated and check for its usage
 13. Delete files which certailnly will no longer be used
+14. Don't use != and == in JavaScript, always use !== and === to be type safe.
